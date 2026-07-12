@@ -22,7 +22,7 @@ if uploaded_file is not None:
             try:
                 prompt = "添付画像から英文を読み取り、SVOC解析と日本語訳、文法解説を行ってください。"
                 response = client.models.generate_content(
-                    model="gemini-2.0-flash", 
+                    model="gemini-1.5-flash", 
                     contents=[prompt, image]
                 )
                 st.markdown("### 📚 解析結果")
