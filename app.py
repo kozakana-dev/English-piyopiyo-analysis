@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # APIキーを設定 (⚠️ あなたのキーに書き換えてください)
-genai.configure(api_key="AQ.Ab8RN6IXdZGvwK-8IWhpu_X0D8AfqD1UUegIn8G6MvzIgTPK5g")
+genai.configure(api_key="")
 
 st.title("英語構文解析カメラ")
 
