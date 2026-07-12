@@ -24,7 +24,7 @@ else: # カメラで撮影
 # 解析実行
 if submit_btn:
     with st.spinner("解析中..."):
-        model = genai.GenerativeModel('gemini-1.5-flash-latest') # 最新モデルを使用
+        model = model = genai.GenerativeModel('gemini-1.5-flash') # 最新モデルを使用
 
         if image_data:
             # 画像がアップロードされている場合
