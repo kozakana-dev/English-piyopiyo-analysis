@@ -1,3 +1,4 @@
+# 現在の記述を削除し、以下を記述
+google-generativeai>=0.8.0
 streamlit
-google-genai
-pillow
+# その他の必要なライブラリもあれば残す
